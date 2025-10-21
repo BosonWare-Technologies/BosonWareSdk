@@ -5,12 +5,14 @@ Made with ❤️, caffeine, and a hint of chaos by the BosonWare Team.
 
 ## Installation
 
-````bash
+```bash
 npm install @bosonware/sdk
 # or
 yarn add @bosonware/sdk
+```
 
 ## Usage
+
 ```ts
 import { BosonWareAPISDK } from "../src/";
 
@@ -36,5 +38,4 @@ const prices = await sdk.getPrices([
 ]);
 
 console.log(prices.result.prices);
-
 ````
