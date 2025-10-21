@@ -14,7 +14,7 @@ yarn add @bosonware/sdk
 ## Usage
 
 ```ts
-import { BosonWareAPISDK } from "../src/";
+import { BosonWareAPISDK } from "@bosonware/sdk";
 
 const sdk = new BosonWareAPISDK("https://api.bosonware.org");
 
